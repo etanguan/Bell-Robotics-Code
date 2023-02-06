@@ -45,6 +45,4 @@ inline void rotate(int32_t speed, int32_t distance, bool isLeft) {
         RF_Motor.move_relative(distance, speed);
         RB_Motor.move_relative(distance, speed);
     }
-    
-
 }

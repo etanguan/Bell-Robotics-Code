@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include "Auton.hpp"
 #include "OperatorControl.hpp"
 
 /**
@@ -46,12 +46,9 @@ void competition_initialize() {}
  */
 void autonomous() {
 	
-	
 }
-	
 
 void opcontrol() {
-	on_auton();
-	
+	on_autonomous();
 	on_operator_control(MASTER_CONTROLLER);
 }

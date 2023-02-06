@@ -9,18 +9,6 @@
 #include "FlyWheel.hpp"
 #include "EndGame.hpp"
 
-inline void on_auton() {
-    set_intake_speed(127);
-    forwards(30, 600);
-    rotate(10, 100, true);
-    set_flywheel_speed(500);
-    rotate(20, 775, true);
-    pros::delay(2000);
-    set_intake_speed(0);
-    set_indexer_speed(60);
-    pros::delay(2000);
-}
-
 inline void on_operator_control(pros::Controller Controller) {
 
     int CurFlywheelSpeed = 0;
@@ -93,10 +81,4 @@ inline void on_operator_control(pros::Controller Controller) {
             set_endgame_speed(0);
         }
     }
-
 }
-
-inline void on_disabled() {
-
-}
-
