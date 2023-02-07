@@ -1,5 +1,9 @@
 #include "main.h"
+<<<<<<< HEAD
 #include "Auton.hpp"
+=======
+
+>>>>>>> refs/remotes/origin/master
 #include "OperatorControl.hpp"
 
 /**
@@ -46,9 +50,21 @@ void competition_initialize() {}
  */
 void autonomous() {
 	
+<<<<<<< HEAD
 }
 
 void opcontrol() {
 	on_autonomous();
 	on_operator_control(MASTER_CONTROLLER);
 }
+=======
+	
+}
+	
+
+void opcontrol() {
+	on_auton();
+	
+	on_operator_control(MASTER_CONTROLLER);
+}
+>>>>>>> refs/remotes/origin/master

@@ -21,6 +21,7 @@ inline void forwards(int32_t speed, int32_t distance) {
     RF_Motor.move_relative(distance, speed);
     RB_Motor.move_relative(distance, speed);
 
+<<<<<<< HEAD
     /*while(!((LF_Motor.get_position() < distance + 10) && LB_Motor.get_position() > distance-10)) {
 		pros::delay(2);
 	}*/
@@ -46,3 +47,9 @@ inline void rotate(int32_t speed, int32_t distance, bool isLeft) {
         RB_Motor.move_relative(distance, speed);
     }
 }
+=======
+    while(!((LF_Motor.get_position() < distance + 100) && LB_Motor.get_position() > distance-100)) {
+		pros::delay(2);
+	}
+}
+>>>>>>> refs/remotes/origin/master
