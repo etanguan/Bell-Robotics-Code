@@ -88,14 +88,4 @@ inline void on_operator_control(pros::Controller Controller) {
             set_endgame_speed(0);
         }
     }
-<<<<<<< HEAD
 }
-=======
-
-}
-
-inline void on_disabled() {
-
-}
-
->>>>>>> refs/remotes/origin/master
