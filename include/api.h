@@ -41,13 +41,8 @@
 
 #define PROS_VERSION_MAJOR 3
 #define PROS_VERSION_MINOR 7
-<<<<<<< HEAD
 #define PROS_VERSION_PATCH 3
 #define PROS_VERSION_STRING "3.7.3"
-=======
-#define PROS_VERSION_PATCH 2
-#define PROS_VERSION_STRING "3.7.2"
->>>>>>> refs/remotes/origin/master
 
 #include "pros/adi.h"
 #include "pros/colors.h"
