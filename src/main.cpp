@@ -1,9 +1,5 @@
 #include "main.h"
-<<<<<<< HEAD
 #include "Auton.hpp"
-=======
-
->>>>>>> refs/remotes/origin/master
 #include "OperatorControl.hpp"
 
 /**

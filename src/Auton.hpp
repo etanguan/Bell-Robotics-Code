@@ -14,7 +14,7 @@ inline void on_autonomous() {
     forwards(30, 600);
     rotate(10, 100, true);
     set_flywheel_speed(500);
-    rotate(20, 775, true);
+    rotate(20, 725, true);
     pros::delay(2000);
     set_intake_speed(0);
     set_indexer_speed(60);

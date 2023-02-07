@@ -9,13 +9,6 @@
 #include "FlyWheel.hpp"
 #include "EndGame.hpp"
 
-<<<<<<< HEAD
-=======
-inline void on_auton(){
-    forwards(90 , 1000);
-}
-
->>>>>>> refs/remotes/origin/master
 inline void on_operator_control(pros::Controller Controller) {
 
     int CurFlywheelSpeed = 0;
